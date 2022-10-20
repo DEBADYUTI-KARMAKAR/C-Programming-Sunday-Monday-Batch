@@ -1,3 +1,4 @@
+#include<stdio.h>
 struct date{
 	int d,m,y;
 	char c;
@@ -5,13 +6,13 @@ struct date{
 
 main(){
 	struct date today={ 
-	26,7,2021,'D'
+	13,6,2022,'M'
 	};
 	
-	printf("%d\n",today.d);
-	printf("%d\n",today.m);
-	
-	printf("%c\n",today.c);
+	printf("%d\n",today.d);//13
+	printf("%d\n",today.m);//6
+	printf("%d\n",today.y);
+	printf("%c\n",today.c);//M
 	
 }
 

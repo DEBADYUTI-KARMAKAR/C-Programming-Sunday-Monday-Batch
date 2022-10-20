@@ -4,10 +4,10 @@ int main()
 {
     FILE *ptr = NULL;
 
-    //char str[50];
+    char str[50];
     int n;
-    ptr = fopen("file.txt","r");
-    fscanf(ptr,"%d",&n);
+    ptr = fopen("File.txt","r");
+    fscanf(ptr,"%c",&n);
     printf("%d",n);
     fclose(ptr);
     return 0;

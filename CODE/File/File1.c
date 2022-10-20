@@ -4,7 +4,7 @@ int main()
 {
     FILE *ptr = NULL;
 
-    char str[50]="DK";
+    char str[50]="DK hello";
     
     ptr = fopen("file1.txt","w");
    
